@@ -1,0 +1,85 @@
+:root{
+    --primario:#FA8072;
+    --fondo: #F0D0C1;
+    --blanco: #FFFF;
+    --negro: #0000;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+#ravenly{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: var(--primario);
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: rgba(240, 208, 143, 0.4);
+}
+
+#output p{
+    font-size: 1.5rem;
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid var(--primario);
+    color: #000;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: var(--primario);
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    display: block;
+    width: 100%;
+    background-color: rgba(240, 208, 143, 0.1);
+    border-bottom: 1px solid #eee;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+button{
+    background: var(--primario);
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
